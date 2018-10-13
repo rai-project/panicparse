@@ -170,7 +170,7 @@ var types = map[string]struct {
 	"other": {
 		"panics with other package in the call stack, with both exported and unexpected functions",
 		func() {
-			internal.Callback(func() {
+			panicparse.Callback(func() {
 				panic("allo")
 			})
 		},
@@ -219,7 +219,7 @@ var types = map[string]struct {
 		func() {
 			a := []string{"a", "b"}
 			sort.Slice(a, func(i, j int) bool {
-				internal.Callback(func() {
+				panicparse.Callback(func() {
 					panic("allo")
 				})
 				return false

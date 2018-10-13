@@ -14,7 +14,7 @@
 //  - Red: other packages.
 //
 // Bright colors are used for exported symbols.
-package internal
+package panicparse
 
 import (
 	"errors"

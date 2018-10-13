@@ -5,7 +5,7 @@
 // +build go1.1
 // +build !go1.6
 
-package internal
+package panicparse
 
 const (
 	showGOTRACEBACKBanner = false
