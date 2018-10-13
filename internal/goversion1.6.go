@@ -4,7 +4,7 @@
 
 // +build go1.6
 
-package internal
+package panicparse
 
 const (
 	showGOTRACEBACKBanner = true
